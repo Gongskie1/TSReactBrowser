@@ -8,7 +8,6 @@ const CustomButton = ({buttonStyles,buttonText, buttonType}:customButtonStyles) 
       type={buttonType || "button"}
       >
         {buttonText}
-        <p>s</p>
       </button>
     </div>
   )
