@@ -9,6 +9,7 @@ const CustomButton = ({buttonStyles,buttonText, buttonType}:customButtonStyles) 
       >
         {buttonText}
       </button>
+      <p>otindako longanisa</p>
     </div>
   )
 }
