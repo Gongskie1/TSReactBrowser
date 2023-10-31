@@ -1,4 +1,4 @@
-import { Admin, Blog, Examples, FeaturedProducts, Help, NavBar, NewProducts, OrderSummary, Overview, PageNotFound, SearchProduct, Tours, UserDetails, Users } from './components'
+import { Admin, Blog, Examples, FeaturedProducts, Help, NavBar, NewProducts, OrderSummary, Overview, PageNotFound, Profile, SearchProduct, Tours, UserDetails, Users } from './components'
 import { Routes, Route } from 'react-router-dom'
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
               <Route path=':userId' element={<UserDetails />} />
               <Route path='admin' element={<Admin/>}/>
             </Route>
-            
+            <Route path='profile' element={<Profile/>} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>
         </main>
