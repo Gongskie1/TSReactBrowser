@@ -15,4 +15,5 @@ export { default as NewProducts } from "./container/products/NewProducts";
 export { default as Products } from "./container/products/Products";
 export { default as Users } from "./container/userfolder/Users";
 export { default as UserDetails } from "./container/userfolder/UserDetails";
-export {default as Admin} from "./container/userfolder/Admin"
+export { default as Admin } from "./container/userfolder/Admin"
+export { default as Profile } from "./container/navcontainer/Profile";

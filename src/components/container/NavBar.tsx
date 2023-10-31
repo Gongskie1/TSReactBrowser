@@ -30,8 +30,12 @@ const NavBar = () => {
           to="/blog">Blog</NavLink>
         
         <NavLink style={navLinksStyles} 
+        className={`mx-4 text-[18px] text-[rgb(118,118,118)] cursor-pointer`} 
+          to="help">Help</NavLink>
+        
+        <NavLink style={navLinksStyles} 
         className={`mx-4 text-[18px] text-[#767676] cursor-pointer`} 
-        to="help">Help</NavLink>
+        to="profile">profile</NavLink>
       </div>
       <CustomButton
         buttonStyles="text-[18px] p-[10px_20px] font-semibold text-[white] bg-[#04DDB2] rounded-[50px] cursor-pointer"
